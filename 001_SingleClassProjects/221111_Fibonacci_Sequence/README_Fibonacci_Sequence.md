@@ -1,4 +1,4 @@
-Inverted Fibonacci_Sequence
+Fibonacci_Sequence
 
 Prepared for the Fullfillment of Java101 path in " ebebek Java & QA & SAP Spartacus Practicum " with Patika.Dev and Kodluyoruz.org in November 2022
 
