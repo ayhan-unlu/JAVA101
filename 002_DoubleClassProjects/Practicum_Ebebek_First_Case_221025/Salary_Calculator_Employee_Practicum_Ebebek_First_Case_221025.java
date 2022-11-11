@@ -1,4 +1,4 @@
-public class Employee {
+public class Salary_Calculator_Employee_Practicum_Ebebek_First_Case_221025 {
 
     String name;
     int salary;
@@ -10,7 +10,7 @@ public class Employee {
     double raiseSalary;
     int currentYear=2021;
 
-    Employee(String name, int salary, int workHours, int hireYear) {
+    Salary_Calculator_Employee_Practicum_Ebebek_First_Case_221025(String name, int salary, int workHours, int hireYear) {
     
     this.name = name;
     this.salary = salary;

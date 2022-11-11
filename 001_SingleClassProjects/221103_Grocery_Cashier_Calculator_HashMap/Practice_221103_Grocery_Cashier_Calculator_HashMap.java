@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Class_221103_Grocery_HashMap {
+public class Practice_221103_Grocery_Cashier_Calculator_HashMap {
     public static void main(String[] args) {
         // defining variables, specificially vegetables and fruits
         String pear="pear",  apple="apple", tomatoe="tomatoe", banana="banana", eggplant="eggplant";
