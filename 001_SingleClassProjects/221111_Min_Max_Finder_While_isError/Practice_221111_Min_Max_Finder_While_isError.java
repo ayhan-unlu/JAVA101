@@ -4,7 +4,7 @@ public class Practice_221111_Min_Max_Finder_While_isError {
 
     // method for printing invalid input message
     public static void printInvalidInputMessage() {
-        System.out.println("Sorry but You have entered an invalid value.\nThe input must be pozitive.");
+        System.out.println("Sorry but You have entered an invalid value.\nThe input must be positive.");
     }
 
     public static void main(String[] args) {
