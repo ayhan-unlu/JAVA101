@@ -1,8 +1,8 @@
-package ebebekPracticum.Homework;
+
 
 import java.util.Scanner;
 
-public class Fibonacci {
+public class Practice_221111_Fibonacci_Sequence {
     public static void main(String[] args) {
         
 
