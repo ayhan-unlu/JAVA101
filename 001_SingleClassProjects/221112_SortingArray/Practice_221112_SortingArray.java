@@ -6,7 +6,10 @@ public class SortingArray {
         Scanner scan = new Scanner(System.in);
         System.out.print("Please enter the number of elements You want in the array: ");
         int n = scan.nextInt();
+        
+        //the length of the array is established
         int[] arr = new int[n];
+        //input numbers are assigned to the indices of the array 
         for (int i = 0; i < n; i++) {
             System.out.print("Please enter the number indexed \"" + i + "\" in the array: ");
             arr[i] = scan.nextInt();
