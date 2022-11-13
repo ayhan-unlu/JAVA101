@@ -10,22 +10,22 @@ public class Practice_221111_Fibonacci_Sequence {
         //gets the number of elements for Fibonacci Sequence
     
         System.out.print("Please Enter The Number of Elements You Want in Fibonacci Sequence : ");
-        int n = scan.nextInt();
+        int numberOfElements = scan.nextInt();
         scan.close();
 
-        int a , b = 1, c = 0;
+        int numberOne , numberTwo = 1, result = 0;
 
         //Sequence starts with 0 as described in the link: https://en.wikipedia.org/wiki/Fibonacci_number
 
-        System.out.print("Fibonacci Sequence with "+ n+" Elements : \n");
-        for (int i = 0; i < n; i++) {
+        System.out.print("Fibonacci Sequence with "+ numberOfElements+" Elements : \n");
+        for (int i = 0; i < numberOfElements; i++) {
 
-            System.out.print(c + " ");
+            System.out.print(result + " ");
 
-            a = b;
-            b = c;
+            numberOne = numberTwo;
+            numberTwo = result;
+            result = numberOne + numberTwo;
 
-            c = a + b;
         }
     }
 }
